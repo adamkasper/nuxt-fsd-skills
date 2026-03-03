@@ -1,17 +1,17 @@
-# fsd-nuxt
+# nuxt-fsd
 
 An agent skill for applying [Feature-Sliced Design](https://feature-sliced.design/) (FSD) architecture in [Nuxt 4+](https://nuxt.com/) projects.
 
 ## Install
 
 ```bash
-npx skills add adamkasper/fsd-nuxt-skills
+npx skills add adamkasper/nuxt-fsd-skills
 ```
 
 Or with a direct URL:
 
 ```bash
-npx skills add https://github.com/adamkasper/fsd-nuxt-skills
+npx skills add https://github.com/adamkasper/nuxt-fsd-skills
 ```
 
 ## What it does

@@ -1,5 +1,5 @@
 ---
-name: fsd-nuxt
+name: nuxt-fsd
 description: >
   Feature-Sliced Design (FSD) architecture for Nuxt 4+ projects. Use when
   deciding where to place new code, which layer a module belongs to, how to
