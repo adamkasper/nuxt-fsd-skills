@@ -136,7 +136,7 @@ project-root/
 
 A thin page:
 - Imports the page component from `src/pages/<slice>`
-- Defines `defineI18nRoute()` for i18n path mappings (if using `@nuxtjs/i18n`)
+- Defines `definePageMeta({ i18n: { ... } })` for i18n path mappings (if using `@nuxtjs/i18n` with `customRoutes: 'meta'`)
 - Defines `definePageMeta()` for validation, layout, route key
 - Renders the imported page component
 
@@ -150,6 +150,12 @@ import { ProductDetailPage } from '~~/src/pages/product-detail'
 definePageMeta({
   layout: 'default',
   validate: async (route) => /^\d+$/.test(route.params.id as string),
+  i18n: {
+    paths: {
+      cs: '/produkty/[id]',
+      en: '/products/[id]',
+    },
+  },
 })
 </script>
 
